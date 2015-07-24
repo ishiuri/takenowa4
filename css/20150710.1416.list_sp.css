@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+article, aside, figure, figcaption, footer, header, nav, section {
+display: block;
+}
+
+ol, ul{
+    list-style:none;
+}
+
+a:hover img.hoverImg {
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;   
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+
+
+#category{
+font-size:120%;	
+margin-bottom:1em;
+padding:0.5em 0 0 0.5em;
+}
+
+
+h2{
+font-size:180%;	
+display:inline;
+}
+
+
+
+#table01 ul{
+	
+	border-top:0.1em solid #D9D7D6;	
+	border-left:0.1em solid #D9D7D6;
+	width:100%;
+	margin:0 auto;
+	clear:both;
+
+}
+#table01 li{
+	border-right:0.1em solid #D9D7D6;
+	border-bottom:0.1em solid #D9D7D6;
+	width:44.5%;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	padding-top:4%;
+	padding-bottom:2%;
+	float:left;
+	display:block;
+	background:#fff;
+}
+#table01 li .icon{
+	color:#575656;
+	width:100%;
+	font-size:0.6em;
+}
+#table01 li .icon img{
+	float:left;
+	margin-right:5px;
+	width:12%;
+}
+#table01 li .icon img.take{
+}
+#table01 li .icon a{
+	font-weight:bold;
+	color:#050505;
+	text-decoration:none;
+}
+#table01 li .icon a:hover{
+	text-decoration:underline;
+}
+#table01 li .img{
+	padding-top:4%;
+	padding-bottom:4%;
+	clear:both;
+}
+#table01 li .img img{
+	margin-bottom:3px;
+}
+#table01 li .img a{
+	color:#2281A8;
+	font-size:16px;
+	text-decoration:none;
+}
+#table01 li .img a:hover{
+	text-decoration:underline;
+}
+#table01 li .text{
+}
+
+#table02 ul{
+	border-left:1px solid #D9D7D6;
+	border-top:1px solid #D9D7D6;
+	width:95%!important;
+	margin:0 auto;
+	clear:both;
+	background-color:#FFF;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+#table02 li{
+	border-right:1px solid #D9D7D6;
+	border-bottom:1px solid #D9D7D6;
+	width:96%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#table02 li .title{
+	text-align:center;
+	width:30%;
+}
+#table02 li .img img{
+	width:100%;
+	margin-bottom:5px;
+}
+#table02 li .red{
+	color:#CA1515;
+	
+}
+#table02 li .blue{
+	color:#2E84A7;
+}
+
+#table02 li .img2{
+	float:left;
+	width:50%;
+	margin-right:2%;
+}
+#table02 li .img2 img{
+}
+#table02 li .text{
+	margin-top:2%;
+	float:left;
+	width:48%;
+}
+#table02 li a{
+	text-decoration:none;
+	color:#333333;
+	display:blcok;
+}
+#table02 li.btn{
+	text-align:center;
+	
+}
+#table02 li.btn img{
+	width:60%;
+}
+
+.facebook-page{
+	display:none;
+}
+
+
+#list .navi{
+	padding-top:4%;
+	padding-bottom:4%;
+	position:relative;
+	clear:both;
+}
+.android #list .navi{
+	padding-top:1em;
+	padding-bottom:1em;
+	border-top:0.1em solid #142942;
+	position:relative;
+	clear:both;
+}
+#list .navi ul{
+	text-align:center;
+}
+#list .navi ul li{
+	display:inline-block;
+	background-color:#ECE9E6;
+	text-align:center;
+	 color:#000000;
+	 margin-right:3%;
+}
+#list .navi ul li a{
+	display:inline-block;
+	padding:0.2em;
+	padding-left:0.35em;
+	padding-right:0.35em;
+	
+	width:100%;
+	background-color:#ECE9E6;
+	text-align:center;
+	 color:#000000;
+	 text-decoration:none;
+}
+#list .navi ul li{
+	display:inline-block;
+	background-color:#ECE9E6;
+	text-align:center;
+	 color:#000000;
+	 margin-right:1%;
+	width:2em;
+}
+#list .navi ul li a{
+	display:inline-block;
+	padding:0;
+	width:100%;
+	height:1.6em;
+	padding-top:0.4em;
+	background-color:#ECE9E6;
+	text-align:center;
+	 color:#000000;
+	 text-decoration:none;
+}
+
+
+
+#list .navi ul li.now a{
+	display:inline-block;
+	background-color:#000;
+	color:#FFFFFF;
+	width:100%;
+}
+#list .navi ul li a:hover{
+	background-color:#000;
+	color:#FFFFFF;
+}
+#list .navi .prev{
+	position:absolute;
+	width:10%;
+	left:3%;
+	top:0.8em;
+}
+#list .navi .next{
+	width:10%;
+	position:absolute;
+	right:3%;
+	top:0.8em;
+}
+.android #list .navi .prev{
+	position:absolute;
+	width:2em;
+	left:3%;
+	top:1em;
+}
+.android #list .navi .next{
+	width:2em;
+	position:absolute;
+	right:3%;
+	top:1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

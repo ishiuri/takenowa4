@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+article, aside, figure, figcaption, footer, header, nav, section {
+display: block;
+}
+
+ol, ul{
+    list-style:none;
+}
+
+a:hover img.hoverImg {
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;   
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+
+/** メイン **/
+#content .lead{
+	width:870px;
+	float:left;
+	margin-top:15px;
+}
+#content .social{
+	float:right;
+	width:61px;
+	margin-right:2px;
+	margin-top:9px;
+}
+#content .social .tweet{
+	float:left;
+}
+#content .social .facebook{
+	float:right;
+}
+
+#content #top{
+	padding-top:10px;
+	clear:both;
+}
+#content #top .right{
+	float:right;
+	width:328px;
+	height:338px;
+}
+#content #top .right .tokushu{
+	position:relative;
+}
+#content #top .right .tokushu .text{
+	background-color:#FCE809;
+	margin-left:4px;
+	width:268px;
+	height:312px;
+	text-decoration:none;
+	color:#333333;
+	padding-left:26px;
+	padding-right:29px;
+	padding-top:10px;
+}
+#content #top .right .tokushu .title{
+	margin-bottom:97px;
+}
+#content #top .right .tokushu .img{
+	position:absolute;
+	top:64px;
+	left:29px;
+}
+#content #top .right .tokushu .btn{
+	position:absolute;
+	bottom:-15px;
+	left:114px;
+}
+#content #top .right .tokushu .text a:hover{
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+#content #top .right .tokushu .text a{
+	color:#2281A8;
+	font-size:16px;
+	padding-bottom:10px;
+	text-decoration:none;
+}
+#content #top .right .tokushu .text a:hover{
+	text-decoration:underline;
+}
+#content #top .right .tokushu .text p{
+	margin-top:5px;
+}
+
+/** スライドショー **/
+#content .slide{
+	float:left;
+	height:360px;
+}
+#content .slide li{
+	position:realtive;
+}
+#content .slide li .text{
+	position:absolute;
+	background:url(../img/text_bg.png);
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:631px;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+#content .slide li .icon{
+	float:left;
+	margin-left:8px;
+	margin-top:2px;
+	margin-right:5px;
+}
+#content .slide li .icon img{
+	float:left;
+	margin-right:2px;
+}
+#content .slide li .title{
+	font-size:22px;
+	font-weight:bold;
+	color:#368BAE;
+	float:left;
+	width:527px;
+	
+}
+#content .slide li a img{
+	width:100%;
+}
+
+/** スライドショー終わり **/
+
+#table01 ul{
+	border-left:1px solid #D9D7D6;
+	border-top:1px solid #D9D7D6;
+	width:966px;
+	clear:both;
+	background-color:#FFF;
+}
+#table01 li{
+	border-right:1px solid #D9D7D6;
+	border-bottom:1px solid #D9D7D6;
+	width:269px;
+	padding-left:26px;
+	padding-right:26px;
+	padding-top:17px;
+	padding-bottom:0px;
+	float:left;
+}
+#table01 li .icon{
+	color:#575656;
+}
+#table01 li .icon img{
+	float:left;
+	margin-right:5px;
+}
+#table01 li .icon img.take{
+	margin-top:-6px;
+}
+#table01 li .icon a{
+	font-weight:bold;
+	color:#050505;
+	text-decoration:none;
+}
+#table01 table td .icon a:hover{
+	text-decoration:underline;
+}
+#table01 li .img{
+	padding-top:10px;
+	clear:both;
+	margin-bottom:10px;
+}
+#table01 li .img img{
+	margin-bottom:3px;
+}
+#table01 li .img a{
+	color:#2281A8;
+	font-size:16px;
+	text-decoration:none;
+}
+#table01 li .img a:hover{
+	text-decoration:underline;
+}
+
+#table02 ul{
+	border-left:1px solid #D9D7D6;
+	border-top:1px solid #D9D7D6;
+	width:483px!important;
+	background-color:#FFF;
+	margin-top:32px;
+	margin-bottom:46px;
+	float:left;
+}
+#table02 ul.shop{
+	border-left:none;
+}
+#table02 li{
+	border-right:1px solid #D9D7D6;
+	border-bottom:1px solid #D9D7D6;
+	width:422px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:14px;
+	padding-bottom:14px;
+	font-size:16px;
+}
+#table02 li .title{
+	text-align:center;
+	margin-bottom:14px;
+}
+#table02 li .img img{
+	width:100%;
+	margin-bottom:5px;
+}
+#table02 li .red{
+	color:#CA1515;
+	
+}
+#table02 li .blue{
+	color:#2E84A7;
+}
+
+#table02 li .img2{
+	float:left;
+	width:206px;
+	margin-right:16px;
+}
+#table02 li .img2 img{
+	width:206px;
+}
+#table02 li .text{
+	margin-top:10px;
+}
+#table02 li a{
+	text-decoration:none;
+	color:#333333;
+}
+#table02 li.btn{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+article, aside, figure, figcaption, footer, header, nav, section {
+display: block;
+}
+
+ol, ul{
+    list-style:none;
+}
+
+a:hover img.hoverImg {
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;   
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+
+/** メイン **/
+#content .lead{
+	width:94%;
+	float:none;
+	margin-top:0px;
+	padding:3%;
+}
+#content .social{
+	float:right;
+	width:61px;
+	margin-right:2px;
+	margin-top:9px;
+	display:none;
+}
+#content .social .tweet{
+	float:left;
+}
+#content .social .facebook{
+	float:right;
+}
+
+#content #top{
+	clear:both;
+}
+#content #top .right{
+	float:none;
+	width:100%;
+}
+#content #top .right .tokushu{
+	width:95%;
+	margin:0 auto;
+	clear:both;
+	background-color:#FCE809;
+	margin-bottom:15%;
+	position:relative;
+	padding-bottom:1em;
+	margin-top:15%;
+}
+#content #top .right .tokushu .img{
+	position:absolute;
+	top:17%;
+	left:5%;
+	width:90%;
+}
+#content #top .right .tokushu .text{
+	width:90%;
+	text-decoration:none;
+	color:#333333;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:3%;
+}
+#content #top .right .tokushu .btn{
+	position:absolute;
+	bottom:-7%;
+	width:40%;
+	left:30%;
+}
+#content #top .right .tokushu .title{
+	width:70%;
+	margin:0 auto;
+	margin-bottom:37%;
+}
+#content #top .right .tokushu .text a:hover{
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+#content #top .right .tokushu .text a{
+	color:#2281A8;
+	font-size:16px;
+	padding-bottom:10px;
+	text-decoration:none;
+}
+#content #top .right .tokushu .text a:hover{
+	text-decoration:underline;
+}
+#content #top .right .tokushu .text p{
+	margin-top:5px;
+}
+
+/** スライドショー **/
+#content .slide{
+	float:none;
+	width:100%;
+}
+#content .bxslider{
+	width:100%;
+}
+#content .slide li{
+	position:realtive;
+	width:100%;
+}
+#content .slide li img{
+}
+#content .slide li .text{
+	width:94%;
+	padding:3%;
+}
+#content .slide li .icon{
+	float:left;
+	width:100%;
+	font-size:0.5em;
+}
+#content .slide li .icon img{
+	float:left;
+	margin-right:2px;
+	width:7%;
+}
+#content .slide li .title{
+	font-weight:bold;
+	color:#368BAE;
+	width:100%;
+	font-size:0.8em;
+}
+#content .slide li a img{
+	width:100%;
+}
+
+/** スライドショー終わり **/
+
+#table01 ul{
+	
+	border-top:0.1em solid #D9D7D6;	
+	border-left:0.1em solid #D9D7D6;
+	width:100%;
+	margin:0 auto;
+	clear:both;
+
+}
+#table01 li{
+	border-right:0.1em solid #D9D7D6;
+	border-bottom:0.1em solid #D9D7D6;
+	width:44.5%;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	padding-top:4%;
+	padding-bottom:2%;
+	float:left;
+	display:block;
+	background:#fff;
+}
+
+
+#table01 li .icon{
+	color:#575656;
+	width:100%;
+	font-size:0.6em;
+}
+#table01 li .icon img{
+	float:left;
+	margin-right:5px;
+	width:12%;
+}
+#table01 li .icon img.take{
+}
+#table01 li .icon a{
+	font-weight:bold;
+	color:#050505;
+	text-decoration:none;
+}
+#table01 li .icon a:hover{
+	text-decoration:underline;
+}
+#table01 li .img{
+	padding-top:4%;
+	clear:both;
+}
+#table01 li .img img{
+	margin-bottom:3px;
+}
+#table01 li .img a{
+	color:#2281A8;
+	font-size:16px;
+	text-decoration:none;
+}
+#table01 li .img a:hover{
+	text-decoration:underline;
+}
+#table01 li .text{
+}
+
+#table02 ul{
+	border-left:1px solid #D9D7D6;
+	border-top:1px solid #D9D7D6;
+	width:95%!important;
+	margin:0 auto;
+	clear:both;
+	background-color:#FFF;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+#table02 li{
+	border-right:1px solid #D9D7D6;
+	border-bottom:1px solid #D9D7D6;
+	width:96%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#table02 li .title{
+	text-align:center;
+	width:30%;
+}
+#table02 li .img img{
+	width:100%;
+	margin-bottom:5px;
+}
+#table02 li .red{
+	color:#CA1515;
+	
+}
+#table02 li .blue{
+	color:#2E84A7;
+}
+
+#table02 li .img2{
+	float:left;
+	width:50%;
+	margin-right:2%;
+}
+#table02 li .img2 img{
+}
+#table02 li .text{
+	margin-top:2%;
+	float:left;
+	width:48%;
+}
+#table02 li a{
+	text-decoration:none;
+	color:#333333;
+	display:blcok;
+}
+#table02 li.btn{
+	text-align:center;
+	
+}
+#table02 li.btn img{
+	width:60%;
+}
+
+.facebook-page{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

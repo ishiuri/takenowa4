@@ -1,0 +1,23 @@
+document.write('<header class="clearfix">');
+document.write('<h1><a href="/index.html"><img src="/common/img/logo.gif" alt="í|Émó÷"></a></h1>');
+document.write('<p class="about"><a href="/about/">í|Émó÷Ç…Ç¬Ç¢Çƒ</a></p>');
+document.write('<p class="contact"><a href="/contact/">Ç®ñ‚Ç¢çáÇÌÇπ</a></p>');
+document.write('<p class="btn01"><a href="/event/"><img src="/common/img/btn_event.gif" alt="ÉCÉxÉìÉg" class="hoverImg"></a></p>');
+document.write('<p class="btn02"><a href="/shop/"><img src="/common/img/btn_shop.gif" alt="ÉVÉáÉbÉv" class="hoverImg"></a></p>');
+document.write('<div class="btn_sp">');
+document.write('<p class="btn01_sp"><a href="/about/"><img src="/common/img/sp/btn_about.gif" alt="í|Émó÷Ç…Ç¬Ç¢Çƒ" class="hoverImg"></a></p>');
+document.write('<p class="btn02_sp"><a href="/contact/"><img src="/common/img/sp/btn_contact.gif" alt="Ç®ñ‚Ç¢çáÇÌÇπ" class="hoverImg"></a></p>');
+document.write('</div><!--/btn_sp-->');
+document.write('</header>');
+
+
+
+	
+  	
+  	
+    
+    
+    
+    	
+    	
+    

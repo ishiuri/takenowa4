@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** メイン **/
+
+#center{
+	width:965px;
+	background-color:#FFF;
+	margin:20px auto;
+}
+
+.logo{
+	width:240px;
+	margin:0 auto;
+}
+
+.inner{
+	width:550px;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.inner p{
+	margin:0 auto;
+}
+
+h3{
+	width:186px;
+	margin:30px auto;
+}
+
+#about{
+	width:650px;
+	height:700px;
+	margin:0 auto;
+}
+
+#about .left{
+	float:left;
+}
+
+#about .right{
+	float:right;
+	padding-left:43px;
+}
+
+.company{
+	width:688px;
+	height:174px;
+	margin:0 auto;
+	background-color: #F1E9E2;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.company .left{
+	float:left;
+	margin-top:15px;
+	padding-left:43px;
+}
+
+.company .right{
+	float:right;
+	padding-right:43px;
+	margin-top:15px;
+}
+
+.company .link a{
+	background-color: #52ACD1;
+    color: #FFF;
+    padding: 5px;
+    margin-top: 15px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.contact{
+	width:411px;
+	margin:0 auto;
+}
+
+
+
+
