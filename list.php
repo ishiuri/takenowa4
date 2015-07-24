@@ -49,7 +49,7 @@ $(document).ready(function(){
 <div id="content"> 
    
    <div id="category"><h2>歌舞伎</h2>
-   タグのついた記事テスト3</div>
+   タグのついた記事テスト4</div>
    
    
     <section id="table01">
