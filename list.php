@@ -48,7 +48,8 @@ $(document).ready(function(){
 <div id="main" class="clearfix">
 <div id="content"> 
    
-   <div id="category"><h2>歌舞伎</h2>タグのついた記事</div>
+   <div id="category"><h2>歌舞伎</h2>
+   タグのついた記事テスト1</div>
    
    
     <section id="table01">
